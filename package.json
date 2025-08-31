@@ -1,0 +1,17 @@
+{
+  "name": "integration-cloud-services",
+  "version": "1.0.0",
+  "description": "Application d'intégration de services cloud.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'No tests specified' && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}
