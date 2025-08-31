@@ -12,5 +12,10 @@ module.exports = {
     clientId: process.env.AZURE_CLIENT_ID,
     clientSecret: process.env.AZURE_CLIENT_SECRET,
     tenantId: process.env.AZURE_TENANT_ID
+  },
+  ibm: {
+    apiKey: process.env.IBM_API_KEY,
+    resourceGroup: process.env.IBM_RESOURCE_GROUP,
+    region: process.env.IBM_REGION
   }
 };
